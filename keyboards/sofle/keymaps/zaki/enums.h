@@ -9,9 +9,15 @@ enum sofle_layers {
 enum custom_keycodes {
     KC_QWERTY = SAFE_RANGE,
     KC_CLMAK,
-    KC_PRVWD,
-    KC_NXTWD,
-    KC_LSTRT,
-    KC_LEND,
-    KC_DLINE
+
+    KC_LBRACE, // {
+    KC_RBRACE, // }
+    KC_LPAREN, // (
+    KC_RPAREN, // )
+    KC_LABRAC, // [
+    KC_RABRAC, // ]
+
+    KC_MAG1,
+    KC_MAG2,
+    KC_MAG3,
 };
